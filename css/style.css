@@ -1,0 +1,86 @@
+body {
+  background: url("http://img.tulaoshi.com/image/20150520/33c6176d098194eec7d35787ef83a5f5.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 30px;
+  padding-top: 0px;
+  color: black;
+  opacity: 0.9;
+}
+h1 {
+  padding-top: 0px;
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 70px;
+    background: url('https://s-media-cache-ak0.pinimg.com/564x/52/d8/1e/52d81e9760bccf90f25252948a15ebfd.jpg') 50% center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  opacity: 0.9;
+}
+#form {
+  padding-bottom: 10px;
+  font-family: 'Lato';
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+button {
+  background-color: transparent;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #0575E6;
+  display: inline-block;
+  cursor: pointer;
+  color: #0575E6;
+  font-family: 'Lato';
+  font-size: 30px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+button:hover {
+  position: relative;
+  top: 1px;
+}
+button:active {
+  position: relative;
+  top: 2px;
+}
+.container {
+    margin: 50px auto;
+    width: 500px;
+    border: 1px solid #b51f09;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255, 0.7);
+    color: inherit;
+}
+label {
+}
+.left {
+  font-family: 'Lato';
+  bottom: 5%;
+  right: 5%;
+  position:fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  color: #b51f09;
+}
+#submitBtn {
+  text-align: center;
+}
